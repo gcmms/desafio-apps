@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,10 @@
 		0DA9426125C8FE840050B847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA9425F25C8FE840050B847 /* LaunchScreen.storyboard */; };
 		0DA9426C25C8FE850050B847 /* OGloboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9426B25C8FE850050B847 /* OGloboTests.swift */; };
 		0DA9427725C8FE850050B847 /* OGloboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9427625C8FE850050B847 /* OGloboUITests.swift */; };
+		0DA9428725C900810050B847 /* ContentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9428625C900810050B847 /* ContentsModel.swift */; };
+		0DA9428925C9014B0050B847 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9428825C9014B0050B847 /* SectionModel.swift */; };
+		0DA9428B25C9023F0050B847 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9428A25C9023F0050B847 /* NewsModel.swift */; };
+		0DA9428D25C902E40050B847 /* ImagensModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9428C25C902E40050B847 /* ImagensModel.swift */; };
 		93FC1DB713791F4A55B771BD /* Pods_OGlobo_OGloboUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46EB3B146BA5DD4A22690FB /* Pods_OGlobo_OGloboUITests.framework */; };
 		BBF8FEFAC349B58EE76D9100 /* Pods_OGlobo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFB8A23885EDDFC2D80765F /* Pods_OGlobo.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +56,10 @@
 		0DA9427225C8FE850050B847 /* OGloboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OGloboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA9427625C8FE850050B847 /* OGloboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OGloboUITests.swift; sourceTree = "<group>"; };
 		0DA9427825C8FE850050B847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA9428625C900810050B847 /* ContentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsModel.swift; sourceTree = "<group>"; };
+		0DA9428825C9014B0050B847 /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		0DA9428A25C9023F0050B847 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		0DA9428C25C902E40050B847 /* ImagensModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagensModel.swift; sourceTree = "<group>"; };
 		2CCFEA59A4D65A3B38E81175 /* Pods_OGloboTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OGloboTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69BE64AE1512F3B3CBA8FD1A /* Pods-OGloboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OGloboTests.debug.xcconfig"; path = "Target Support Files/Pods-OGloboTests/Pods-OGloboTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D1836175748FB972A4EC1D8 /* Pods-OGloboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OGloboTests.release.xcconfig"; path = "Target Support Files/Pods-OGloboTests/Pods-OGloboTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +165,10 @@
 		0DA9428525C8FED20050B847 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0DA9428625C900810050B847 /* ContentsModel.swift */,
+				0DA9428825C9014B0050B847 /* SectionModel.swift */,
+				0DA9428A25C9023F0050B847 /* NewsModel.swift */,
+				0DA9428C25C902E40050B847 /* ImagensModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -171,7 +183,6 @@
 				69BE64AE1512F3B3CBA8FD1A /* Pods-OGloboTests.debug.xcconfig */,
 				7D1836175748FB972A4EC1D8 /* Pods-OGloboTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -425,7 +436,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DA9425925C8FE830050B847 /* ViewController.swift in Sources */,
+				0DA9428725C900810050B847 /* ContentsModel.swift in Sources */,
 				0DA9425525C8FE830050B847 /* AppDelegate.swift in Sources */,
+				0DA9428D25C902E40050B847 /* ImagensModel.swift in Sources */,
+				0DA9428B25C9023F0050B847 /* NewsModel.swift in Sources */,
+				0DA9428925C9014B0050B847 /* SectionModel.swift in Sources */,
 				0DA9425725C8FE830050B847 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
