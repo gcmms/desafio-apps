@@ -7,22 +7,17 @@
 //
 
 import Foundation
-import ObjectMapper
 
-class ImagensModel: Mappable {
+class ImagensModel: Codable {
     var author: String?
     var source: String?
     var legend: String?
     var url: String?
 
-    required convenience init?(map: Map) {
-        self.init()
-    }
-    
-    func mapping(map: Map) {
-        author <- map["autor"]
-        source <- map["fonte"]
-        legend <- map["legenda"]
-        url <- map["url"]
+    enum CodingKeys: String, CodingKey {
+        case author = "autor"
+        case source = "fonte"
+        case legend = "legenda"
+        case url = "url"
     }
 }

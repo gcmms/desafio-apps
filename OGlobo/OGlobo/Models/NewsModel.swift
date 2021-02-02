@@ -7,20 +7,14 @@
 //
 
 import Foundation
-import ObjectMapper
 
-class NewsModel: Mappable {
+class NewsModel: Codable {
     
     var content: [ContentsModel]?
     var product: String?
 
-    required convenience init?(map: Map) {
-        self.init()
+    enum CodingKeys: String, CodingKey {
+        case content = "conteudos"
+        case product = "produto"
     }
-    
-    func mapping(map: Map) {
-        content <- map["conteudos"]
-        product <- map["produto"]
-    }
-    
 }

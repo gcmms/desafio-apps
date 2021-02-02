@@ -7,9 +7,7 @@ target 'OGlobo' do
 
   # Pods for OGlobo
     pod 'Alamofire'
-    pod 'AlamofireObjectMapper'
-    pod 'AlamofireImage'
-
+ 
   target 'OGloboTests' do
     inherit! :search_paths
     # Pods for testing

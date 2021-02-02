@@ -7,19 +7,14 @@
 //
 
 import Foundation
-import ObjectMapper
 
-class SectionModel {
+class SectionModel: Codable {
         
     var name: String?
     var url: String?
     
-    required convenience init?(map: Map) {
-        self.init()
-    }
-        
-    func mapping(map: Map) {
-        name <- map["nome"]
-        url <- map["url"]
+    enum CodingKeys: String, CodingKey {
+        case name = "nome"
+        case url = "url"
     }
 }

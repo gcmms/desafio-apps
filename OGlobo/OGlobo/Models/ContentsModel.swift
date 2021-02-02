@@ -8,10 +8,8 @@
 
 import Foundation
 
-import Foundation
-import ObjectMapper
 
-class ContentsModel: Mappable {
+class ContentsModel: Codable {
     var id: Int?
     var title: String?
     var subTitle: String?
@@ -26,25 +24,19 @@ class ContentsModel: Mappable {
     var urlOriginal: String?
     var images: [ImagensModel]?
 
-    required convenience init?(map: Map) {
-        self.init()
+    enum CodingKeys: String, CodingKey {
+        case id = "id"
+        case title = "texto"
+        case subTitle = "subTitulo"
+        case text = "texto"
+        case authors = "autores"
+        case publicityReport = "informePublicitario"
+        case url = "url"
+        case section = "secao"
+        case type = "tipo"
+        case updated = "atualizadoEm"
+        case publishedIn = "publicadoEm"
+        case urlOriginal = "urlOriginal"
+        case images = "imagens"
     }
-    
-    func mapping(map: Map) {
-        authors <- map["autores"]
-        publicityReport <- map["informePublicitario"]
-        subTitle <- map["subTitulo"]
-        text <- map["texto"]
-        updated <- map["atualizadoEm"]
-        id <- map["id"]
-        publishedIn <- map["publicadoEm"]
-        section <- map["secao"]
-        type <- map["tipo"]
-        title <- map["titulo"]
-        url <- map["url"]
-        urlOriginal <- map["urlOriginal"]
-        images <- map["imagens"]
-
-    }
-    
 }
