@@ -1,0 +1,6 @@
+framework module Pods_OGlobo_OGloboUITests {
+  umbrella header "Pods-OGlobo-OGloboUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

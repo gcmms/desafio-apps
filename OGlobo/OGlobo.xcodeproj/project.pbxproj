@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03D2DF3628134AC5C2F26795 /* Pods_OGloboTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCFEA59A4D65A3B38E81175 /* Pods_OGloboTests.framework */; };
 		0DA9425525C8FE830050B847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9425425C8FE830050B847 /* AppDelegate.swift */; };
 		0DA9425725C8FE830050B847 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9425625C8FE830050B847 /* SceneDelegate.swift */; };
 		0DA9425925C8FE830050B847 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9425825C8FE830050B847 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		0DA9426125C8FE840050B847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA9425F25C8FE840050B847 /* LaunchScreen.storyboard */; };
 		0DA9426C25C8FE850050B847 /* OGloboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9426B25C8FE850050B847 /* OGloboTests.swift */; };
 		0DA9427725C8FE850050B847 /* OGloboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9427625C8FE850050B847 /* OGloboUITests.swift */; };
+		93FC1DB713791F4A55B771BD /* Pods_OGlobo_OGloboUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46EB3B146BA5DD4A22690FB /* Pods_OGlobo_OGloboUITests.framework */; };
+		BBF8FEFAC349B58EE76D9100 /* Pods_OGlobo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFB8A23885EDDFC2D80765F /* Pods_OGlobo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		0DA9427225C8FE850050B847 /* OGloboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OGloboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA9427625C8FE850050B847 /* OGloboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OGloboUITests.swift; sourceTree = "<group>"; };
 		0DA9427825C8FE850050B847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCFEA59A4D65A3B38E81175 /* Pods_OGloboTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OGloboTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BE64AE1512F3B3CBA8FD1A /* Pods-OGloboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OGloboTests.debug.xcconfig"; path = "Target Support Files/Pods-OGloboTests/Pods-OGloboTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D1836175748FB972A4EC1D8 /* Pods-OGloboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OGloboTests.release.xcconfig"; path = "Target Support Files/Pods-OGloboTests/Pods-OGloboTests.release.xcconfig"; sourceTree = "<group>"; };
+		882396347F1AA2EB31FB41E0 /* Pods-OGlobo-OGloboUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OGlobo-OGloboUITests.release.xcconfig"; path = "Target Support Files/Pods-OGlobo-OGloboUITests/Pods-OGlobo-OGloboUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A46EB3B146BA5DD4A22690FB /* Pods_OGlobo_OGloboUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OGlobo_OGloboUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFB8A23885EDDFC2D80765F /* Pods_OGlobo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OGlobo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B308FDB69ED752B2CDADF8E0 /* Pods-OGlobo-OGloboUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OGlobo-OGloboUITests.debug.xcconfig"; path = "Target Support Files/Pods-OGlobo-OGloboUITests/Pods-OGlobo-OGloboUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFA964CB4A2A4C6B63ADE8E5 /* Pods-OGlobo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OGlobo.debug.xcconfig"; path = "Target Support Files/Pods-OGlobo/Pods-OGlobo.debug.xcconfig"; sourceTree = "<group>"; };
+		D1311E39C4B4C7BCD7A136C4 /* Pods-OGlobo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OGlobo.release.xcconfig"; path = "Target Support Files/Pods-OGlobo/Pods-OGlobo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF8FEFAC349B58EE76D9100 /* Pods_OGlobo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03D2DF3628134AC5C2F26795 /* Pods_OGloboTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FC1DB713791F4A55B771BD /* Pods_OGlobo_OGloboUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				0DA9426A25C8FE850050B847 /* OGloboTests */,
 				0DA9427525C8FE850050B847 /* OGloboUITests */,
 				0DA9425225C8FE830050B847 /* Products */,
+				74D56B2D85144CABE63A8379 /* Pods */,
+				D79F1ADF60CE57C69DE9C6B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +116,8 @@
 		0DA9425325C8FE830050B847 /* OGlobo */ = {
 			isa = PBXGroup;
 			children = (
+				0DA9428525C8FED20050B847 /* Models */,
+				0DA9428425C8FEC60050B847 /* ViewController */,
 				0DA9425425C8FE830050B847 /* AppDelegate.swift */,
 				0DA9425625C8FE830050B847 /* SceneDelegate.swift */,
 				0DA9425825C8FE830050B847 /* ViewController.swift */,
@@ -128,6 +147,44 @@
 			path = OGloboUITests;
 			sourceTree = "<group>";
 		};
+		0DA9428425C8FEC60050B847 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0DA9428525C8FED20050B847 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74D56B2D85144CABE63A8379 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFA964CB4A2A4C6B63ADE8E5 /* Pods-OGlobo.debug.xcconfig */,
+				D1311E39C4B4C7BCD7A136C4 /* Pods-OGlobo.release.xcconfig */,
+				B308FDB69ED752B2CDADF8E0 /* Pods-OGlobo-OGloboUITests.debug.xcconfig */,
+				882396347F1AA2EB31FB41E0 /* Pods-OGlobo-OGloboUITests.release.xcconfig */,
+				69BE64AE1512F3B3CBA8FD1A /* Pods-OGloboTests.debug.xcconfig */,
+				7D1836175748FB972A4EC1D8 /* Pods-OGloboTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D79F1ADF60CE57C69DE9C6B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACFB8A23885EDDFC2D80765F /* Pods_OGlobo.framework */,
+				A46EB3B146BA5DD4A22690FB /* Pods_OGlobo_OGloboUITests.framework */,
+				2CCFEA59A4D65A3B38E81175 /* Pods_OGloboTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DA9427B25C8FE850050B847 /* Build configuration list for PBXNativeTarget "OGlobo" */;
 			buildPhases = (
+				336B6B9F0B16E1B88526355B /* [CP] Check Pods Manifest.lock */,
 				0DA9424D25C8FE830050B847 /* Sources */,
 				0DA9424E25C8FE830050B847 /* Frameworks */,
 				0DA9424F25C8FE830050B847 /* Resources */,
+				D3A4F53938E5DB80F377A161 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DA9427E25C8FE850050B847 /* Build configuration list for PBXNativeTarget "OGloboTests" */;
 			buildPhases = (
+				4F6F6265E6B99BE44D59CD3E /* [CP] Check Pods Manifest.lock */,
 				0DA9426325C8FE850050B847 /* Sources */,
 				0DA9426425C8FE850050B847 /* Frameworks */,
 				0DA9426525C8FE850050B847 /* Resources */,
@@ -170,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DA9428125C8FE850050B847 /* Build configuration list for PBXNativeTarget "OGloboUITests" */;
 			buildPhases = (
+				1C9BC0B5E7DA93D143F1393C /* [CP] Check Pods Manifest.lock */,
 				0DA9426E25C8FE850050B847 /* Sources */,
 				0DA9426F25C8FE850050B847 /* Frameworks */,
 				0DA9427025C8FE850050B847 /* Resources */,
+				214E3EA1A5A15FFE7B0149E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +315,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C9BC0B5E7DA93D143F1393C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OGlobo-OGloboUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		214E3EA1A5A15FFE7B0149E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OGlobo-OGloboUITests/Pods-OGlobo-OGloboUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OGlobo-OGloboUITests/Pods-OGlobo-OGloboUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OGlobo-OGloboUITests/Pods-OGlobo-OGloboUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		336B6B9F0B16E1B88526355B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OGlobo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F6F6265E6B99BE44D59CD3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OGloboTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3A4F53938E5DB80F377A161 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OGlobo/Pods-OGlobo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OGlobo/Pods-OGlobo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OGlobo/Pods-OGlobo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0DA9424D25C8FE830050B847 /* Sources */ = {
@@ -432,6 +597,7 @@
 		};
 		0DA9427C25C8FE850050B847 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA964CB4A2A4C6B63ADE8E5 /* Pods-OGlobo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +616,7 @@
 		};
 		0DA9427D25C8FE850050B847 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1311E39C4B4C7BCD7A136C4 /* Pods-OGlobo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +635,7 @@
 		};
 		0DA9427F25C8FE850050B847 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69BE64AE1512F3B3CBA8FD1A /* Pods-OGloboTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +658,7 @@
 		};
 		0DA9428025C8FE850050B847 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1836175748FB972A4EC1D8 /* Pods-OGloboTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +681,7 @@
 		};
 		0DA9428225C8FE850050B847 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B308FDB69ED752B2CDADF8E0 /* Pods-OGlobo-OGloboUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +702,7 @@
 		};
 		0DA9428325C8FE850050B847 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882396347F1AA2EB31FB41E0 /* Pods-OGlobo-OGloboUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
