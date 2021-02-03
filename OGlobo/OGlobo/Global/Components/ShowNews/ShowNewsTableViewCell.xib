@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ShowNews" rowHeight="90" id="KGk-i7-Jjw" customClass="ShowNewsTableViewCell" customModule="OGlobo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MWW-Yb-JnZ">
+                        <rect key="frame" x="10" y="10" width="90" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="f1z-zH-vNC"/>
+                            <constraint firstAttribute="height" constant="70" id="kHM-Dk-EzR"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sociedade" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eh2-0Q-ett">
+                        <rect key="frame" x="108" y="15" width="72.5" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MPF denuncia doleiro Juca Bala, acusado de movimentar US$ 3 milhões para o ex-governador" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZn-CB-7D1">
+                        <rect key="frame" x="108" y="31" width="202" height="49"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="49" id="6b9-g1-c48"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="cZn-CB-7D1" secondAttribute="trailing" constant="10" id="GO2-XQ-DT6"/>
+                    <constraint firstItem="cZn-CB-7D1" firstAttribute="top" secondItem="Eh2-0Q-ett" secondAttribute="bottom" constant="1" id="Ivq-Nu-730"/>
+                    <constraint firstItem="MWW-Yb-JnZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="M11-ja-g1h"/>
+                    <constraint firstItem="Eh2-0Q-ett" firstAttribute="leading" secondItem="MWW-Yb-JnZ" secondAttribute="trailing" constant="8" id="PUz-4O-pgG"/>
+                    <constraint firstItem="Eh2-0Q-ett" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="WzN-Os-tU3"/>
+                    <constraint firstItem="MWW-Yb-JnZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="cAC-1R-egx"/>
+                    <constraint firstAttribute="bottom" secondItem="cZn-CB-7D1" secondAttribute="bottom" constant="10" id="swk-Y3-Z4h"/>
+                    <constraint firstAttribute="bottom" secondItem="MWW-Yb-JnZ" secondAttribute="bottom" constant="10" id="uFw-DT-tOG"/>
+                    <constraint firstItem="cZn-CB-7D1" firstAttribute="leading" secondItem="MWW-Yb-JnZ" secondAttribute="trailing" constant="8" id="vwE-Y5-EGL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="newsImage" destination="MWW-Yb-JnZ" id="clB-9D-m8a"/>
+                <outlet property="subtitleLabel" destination="Eh2-0Q-ett" id="q8q-PR-ytx"/>
+                <outlet property="titleLabel" destination="cZn-CB-7D1" id="ViK-WQ-5fX"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="103.79464285714285"/>
+        </tableViewCell>
+    </objects>
+</document>
