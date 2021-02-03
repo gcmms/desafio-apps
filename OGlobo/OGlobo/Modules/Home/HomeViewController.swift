@@ -50,7 +50,7 @@ class HomeViewController: UIViewController {
         self.navigationController?.navigationBar.barTintColor = UIColor(named: "primaryColor")!
         self.navigationController?.navigationBar.tintColor = UIColor.white
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-        self.navigationController?.navigationItem.title = "O Globo"
+        self.navigationController?.navigationBar.topItem?.title = "O GLOBO"
     }
 }
 
