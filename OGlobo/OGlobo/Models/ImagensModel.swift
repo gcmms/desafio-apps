@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ImagensModel: Codable {
+class ImagensModel: Decodable {
     var author: String?
     var source: String?
     var legend: String?

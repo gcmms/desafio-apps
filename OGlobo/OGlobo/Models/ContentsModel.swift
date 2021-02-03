@@ -9,7 +9,7 @@
 import Foundation
 
 
-class ContentsModel: Codable {
+class ContentsModel: Decodable {
     var id: Int?
     var title: String?
     var subTitle: String?
@@ -26,7 +26,7 @@ class ContentsModel: Codable {
 
     enum CodingKeys: String, CodingKey {
         case id = "id"
-        case title = "texto"
+        case title = "titulo"
         case subTitle = "subTitulo"
         case text = "texto"
         case authors = "autores"

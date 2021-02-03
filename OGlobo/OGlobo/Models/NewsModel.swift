@@ -8,7 +8,7 @@
 
 import Foundation
 
-class NewsModel: Codable {
+class NewsModel: Decodable {
     
     var content: [ContentsModel]?
     var product: String?

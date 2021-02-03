@@ -8,7 +8,7 @@
 
 import Foundation
 
-class SectionModel: Codable {
+class SectionModel: Decodable {
         
     var name: String?
     var url: String?
